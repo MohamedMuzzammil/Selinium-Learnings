@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]">
+  <test name="BothCorrect(failed)">
+    <parameter name="passworn" value="Password123"/>
+    <parameter name="username" value="student"/>
+    <classes>
+      <class name="testNGTutorials.BothCorrect">
+        <methods>
+          <include name="BCorrect"/>
+        </methods>
+      </class> <!-- testNGTutorials.BothCorrect -->
+    </classes>
+  </test> <!-- BothCorrect(failed) -->
+  <test name="BothWrong(failed)">
+    <parameter name="passworn" value="Password1234"/>
+    <parameter name="username" value="student1"/>
+    <classes>
+      <class name="testNGTutorials.BothWrong">
+        <methods>
+          <include name="bWrong"/>
+        </methods>
+      </class> <!-- testNGTutorials.BothWrong -->
+    </classes>
+  </test> <!-- BothWrong(failed) -->
+  <test name="CorrectPassword(failed)">
+    <parameter name="passworn" value="Password123"/>
+    <parameter name="username" value="student1"/>
+    <classes>
+      <class name="testNGTutorials.CorrectPassword">
+        <methods>
+          <include name="cpassword"/>
+        </methods>
+      </class> <!-- testNGTutorials.CorrectPassword -->
+    </classes>
+  </test> <!-- CorrectPassword(failed) -->
+  <test name="CorrectUsername(failed)">
+    <parameter name="passworn" value="Password1234"/>
+    <parameter name="username" value="student"/>
+    <classes>
+      <class name="testNGTutorials.CorrectUsername">
+        <methods>
+          <include name="cUsername"/>
+        </methods>
+      </class> <!-- testNGTutorials.CorrectUsername -->
+    </classes>
+  </test> <!-- CorrectUsername(failed) -->
+</suite> <!-- Failed suite [Test] -->
