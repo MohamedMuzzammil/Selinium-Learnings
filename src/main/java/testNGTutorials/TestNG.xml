@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test">
+	<test name="BothCorrect">
+		<parameter name="username" value="student"></parameter>
+		<parameter name="password" value="Password123"></parameter>
+
+		<classes>
+			<class name="testNGTutorials.BothCorrect"></class>
+		</classes>
+	</test>
+	<test name="BothWrong">
+		<parameter name="username" value="student1"></parameter>
+		<parameter name="password" value="Password1234"></parameter>
+		<classes>
+			<class name="testNGTutorials.BothWrong"></class>
+		</classes>
+	</test>
+	<test name="CorrectPassword">
+		<parameter name="username" value="student1"></parameter>
+		<parameter name="password" value="Password123"></parameter>
+		<classes>
+			<class name="testNGTutorials.CorrectPassword"></class>
+		</classes>
+	</test>
+	<test name="CorrectUsername">
+		<parameter name="username" value="student"></parameter>
+		<parameter name="password" value="Password1234"></parameter>
+		<classes>
+			<class name="testNGTutorials.CorrectUsername"></class>
+		</classes>
+	</test>
+
+
+</suite>
