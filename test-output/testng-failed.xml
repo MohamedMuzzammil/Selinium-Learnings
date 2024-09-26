@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNGTutorials.Login">
+      <class name="test_grid.Test1">
         <methods>
-          <include name="login"/>
+          <include name="openChrome"/>
+          <include name="openFireFox"/>
         </methods>
-      </class> <!-- testNGTutorials.Login -->
+      </class> <!-- test_grid.Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

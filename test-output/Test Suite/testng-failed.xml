@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="test_grid.Test1">
+        <methods>
+          <include name="openChrome"/>
+          <include name="openFireFox"/>
+        </methods>
+      </class> <!-- test_grid.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
